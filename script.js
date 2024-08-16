@@ -48,8 +48,6 @@ req.onreadystatechange = function () {
 
 
     }
-
-
 }
 
 
