@@ -24,7 +24,7 @@ xhr.onreadystatechange=function(){
                             <div class="category text-white bg-secondary px-3 py-1 rounded position-absolute"
                                 style="top: 15px; left: 10px;">${data[i].category}</div>
                             <div class="p-3 border border-secondary  rounded-bottom"><div class="fruite-img">
-                                <img src="${data[i].image}" class="img-fluid w-100 rounded-top image" alt="">
+                              <a href="">  <img src="${data[i].image}" class="img-fluid w-100 rounded-top image" alt=""></a>
                             </div>
                                 <h4 class="title">${data[i].title}</h4>
                                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
